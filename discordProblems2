@@ -1,7 +1,3 @@
-
-// Problem 2: Write a JavaScript program to find the greatest common divisor (GCD) of two numbers.
-// My variables are "a" and "b"
-
 let a = 20
 let b = 30
 
@@ -9,4 +5,12 @@ if (a > b) {
     console.log("The GCD of " + a + " and " + b + " is " + (a - b) + ".")
 } else if (a < b) {
     console.log("The GCD of " + a + " and " + b + " is " + (b - a) + ".")
+} else {
+    console.log("The GCD of " + a + " and " + b + " is " + 1 + ".")
 }
+    
+/*
+This won't work for all big pairs of numbers.
+Mostly works with even numbers and multiples of 10 (like 24-18, 600-700, 60-70, 
+The formulas I saw were too complicated and I didn't want to copy paste what I don't understand yet lol
+*/
