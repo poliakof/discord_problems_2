@@ -5,8 +5,6 @@ if (a > b) {
     console.log("The GCD of " + a + " and " + b + " is " + (a - b) + ".")
 } else if (a < b) {
     console.log("The GCD of " + a + " and " + b + " is " + (b - a) + ".")
-} else {
-    console.log("The GCD of " + a + " and " + b + " is " + 1 + ".")
 }
     
 /*
