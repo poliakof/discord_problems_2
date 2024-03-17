@@ -11,6 +11,6 @@ if (a > b) {
     
 /*
 This won't work for all big pairs of numbers.
-Mostly works with even numbers and multiples of 10 (like 24-18, 600-700, 60-70, 
+Mostly works with even numbers and 2 digit multiples of 10 (like 3-6, 5-10, 20-30, 24-18, 60-70, 600-700)
 The formulas I saw were too complicated and I didn't want to copy paste what I don't understand yet lol
 */
